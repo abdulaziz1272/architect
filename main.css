@@ -3,9 +3,6 @@
     src: url(./fonts/Poppins-Regular.ttf)
     format(truetype);
 }
-html{
-    overflow: hidden;
-}
 *{
     margin: 0;
     padding: 0;
