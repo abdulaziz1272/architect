@@ -9,14 +9,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="header-logo">
+        <div data-aos="fade-right" data-aos-duration="2000" class="header-logo">
             <img src="./icons/site-logo-white.png" alt="site-logo-white">
             <span>Architect</span>
         </div>
-        <nav>
+        <nav data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1450">
             <ul class="header-lists">
                 <li><a href="#about-me">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -24,58 +27,68 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <a target="_blank" class="header-contact" href="tel:+998913694207">+99 891 369 42 07</a>
+        <a data-aos="fade-left" data-aos-duration="2000" target="_blank" class="header-contact" href="tel:+998913694207">+99 891 369 42 07</a>
     </header>
     <main>
         <section class="hero" id="about-me">
-            <div class="hero-left">
+            <div data-aos="fade-up-right" data-aos-duration="2000" class="hero-left">
                 <h1>Hello, My name is Abrorbek a professional architect in Uzbekistan.</h1>
                 <p>I'm Abdurashidov Abrorbek, born in 2005 in Uzbekistan. I have studied in Namangan spicialized DIMI
                     school. After graduation, I entered NAMDTU Architecture university. It has been 3years since I
                     started my career as an Architect. Apart from my job and study, I sometimes play football, table
                     tennis and computer games.</p>
                 <ul class="hero-container">
-                    <li class="hero-list1"><a target="_blank" href="https://www.instagram.com/abrorbek_designstudio?igsh=MWl6ZGpkanZybzJmYQ=="><i class="fa-brands fa-instagram"></i></a></li>
-                    <li class="hero-list1"><a target="_blank" href="https://t.me/arxitektura_xizmatlari"><i class="fa-brands fa-telegram"></i></a></li>
-                    <li class="hero-list"><a target="_blank" href="tel:+998913694207"><i class="fa-solid fa-phone"></i></a></li>
+                    <li class="hero-list1"><a target="_blank"
+                            href="https://www.instagram.com/abrorbek_designstudio?igsh=MWl6ZGpkanZybzJmYQ=="><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                    <li class="hero-list1"><a target="_blank" href="https://t.me/arxitektura_xizmatlari"><i
+                                class="fa-brands fa-telegram"></i></a></li>
+                    <li class="hero-list"><a target="_blank" href="tel:+998913694207"><i
+                                class="fa-solid fa-phone"></i></a></li>
                 </ul>
             </div>
-            <div class="hero-right">
+            <div data-aos="fade-up-left" data-aos-duration="2000" class="hero-right">
                 <img class="hero-img" src="./images/hero-img.jpg" alt="hero-image">
             </div>
         </section>
         <section class="skills" id="skills">
-            <div class="skills-title-container">
+            <div data-aos="fade-up"
+                data-aos-duration="1000" class="skills-title-container">
                 <h2 class="skills-title">Programs I can use:</h2>
             </div>
             <ul class="skills-container">
-                <li class="skills-list">
+                <li data-aos="fade-up-right" data-aos-duration="2000" class="skills-list">
                     <img src="./images/3D-image.jpg" alt="3D-image">
                     <div class="skills-list__text">
                         <h3>3D-MAX</h3>
                         <p>3D Modeling – Create complex 3D objects, characters, environments, and structures. <br>
                             Animation – Animate characters, simulate physics, and create motion graphics. <br>
-                            Rendering – Produce high-quality, photorealistic images and videos using built-in or third-party renderers (like Arnold, V-Ray). <br>
+                            Rendering – Produce high-quality, photorealistic images and videos using built-in or
+                            third-party renderers (like Arnold, V-Ray). <br>
                             Visual Effects (VFX) – Simulate particles, fluids, smoke, fire, and other effects. <br>
-                            Architectural Visualization – Create lifelike interior and exterior visualizations of buildings.</p>
+                            Architectural Visualization – Create lifelike interior and exterior visualizations of
+                            buildings.</p>
                     </div>
                 </li>
-                <li class="skills-list">
+                <li data-aos="fade-up-left" data-aos-duration="2000" class="skills-list">
                     <img src="./images/autocad.jpg" alt="AutoCAD">
                     <div class="skills-list__text">
                         <h3>AutoCAD</h3>
-                        <p>2D Drafting – Create precise technical drawings for architecture, engineering, and manufacturing (floor plans, schematics, blueprints). <br>
+                        <p>2D Drafting – Create precise technical drawings for architecture, engineering, and
+                            manufacturing (floor plans, schematics, blueprints). <br>
                             3D Modeling – Design and visualize structures or objects in 3D. <br>
                             Annotation & Dimensioning – Add detailed notes, labels, and measurements to drawings. <br>
                             Layer Management – Organize complex drawings into layers for clarity and control.</p>
                     </div>
                 </li>
-                <li class="skills-list">
+                <li data-aos="fade-up-right" data-aos-duration="2000" class="skills-list">
                     <img src="./images/photoshop-img.jpg" alt="">
                     <div class="skills-list__text">
                         <h3>Photoshop</h3>
-                        <p>Photo Editing – Adjust brightness, contrast, color, remove blemishes, retouch faces, and more. <br>
-                            Photo Manipulation – Combine multiple images, create surreal composites, and apply creative effects. <br>
+                        <p>Photo Editing – Adjust brightness, contrast, color, remove blemishes, retouch faces, and
+                            more. <br>
+                            Photo Manipulation – Combine multiple images, create surreal composites, and apply creative
+                            effects. <br>
                             Graphic Design – Design posters, flyers, logos, and social media graphics. <br>
                             Digital Painting – Create artwork from scratch using brushes, textures, and layers. <br>
                             Text Effects – Add and style text for titles, logos, or advertisements.</p>
@@ -84,28 +97,51 @@
             </ul>
         </section>
         <section class="projects" id="projects">
-            <h2>My projects</h2>
+            <h2 data-aos="fade-up"
+                data-aos-duration="1000">My projects</h2>
             <ul class="projects-container">
-                <li class="project-list1"><img src="./images/project1.jpg" alt="pro1"></li>
-                <li class="project-list1"><img src="./images/project2.jpg" alt="pro2"></li>
-                <li class="project-list1"><img src="./images/project3.jpg" alt="pro3"></li>
-                <li class="project-list1"><img src="./images/project4.jpg" alt="pro4"></li>
-                <li class="project-list1"><img src="./images/project5.jpg" alt="pro5"></li>
-                <li class="project-list1"><img src="./images/project6.jpg" alt="pro6"></li>
-                <li class="project-list2"><img src="./images/project7.jpg" alt="pro7"></li>
-                <li class="project-list2"><img src="./images/project8.jpg" alt="pro8"></li>
-                <li class="project-list2"><img src="./images/project9.jpg" alt="pro9"></li>
+                <li data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="project-list1"><img src="./images/project1.jpg" alt="pro1"></li>
+                <li data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="project-list1"><img src="./images/project2.jpg" alt="pro2"></li>
+                <li data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="project-list1"><img src="./images/project3.jpg" alt="pro3"></li>
+                <li data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="project-list1"><img src="./images/project4.jpg" alt="pro4"></li>
+                <li data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="project-list1"><img src="./images/project5.jpg" alt="pro5"></li>
+                <li data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="project-list1"><img src="./images/project6.jpg" alt="pro6"></li>
+                <li data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="project-list2"><img src="./images/project7.jpg" alt="pro7"></li>
+                <li data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="project-list2"><img src="./images/project8.jpg" alt="pro8"></li>
+                <li data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="project-list2"><img src="./images/project9.jpg" alt="pro9"></li>
             </ul>
         </section>
         <section class="request">
-            <div class="request-title">
+            <div data-aos="fade-up"
+                data-aos-duration="2000" class="request-title">
                 <h2>Have any request or suggestion?</h2>
             </div>
-            <div class="request-box">
+            <div data-aos="fade-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-duration="2000" class="request-box">
                 <ul class="request-container">
                     <li>
                         <img src="./icons/request-img1.svg" alt="request-img1" width="74px" height="74px">
-                        <p>If you have any request, you can contact us with <a target="_blank" href="https://t.me/Arxitekturiskiy4207">https://t.me/Arxitekturiskiy4207</a>.</p>
+                        <p>If you have any request, you can contact us with <a target="_blank"
+                                href="https://t.me/Arxitekturiskiy4207">https://t.me/Arxitekturiskiy4207</a>.</p>
                     </li>
                     <li>
                         <img src="./icons/request-img2.svg" alt="request-img2" width="74px" height="74px">
@@ -119,22 +155,30 @@
                     <img class="request-pointer2" src="./icons/request-pointer.svg" alt="request-pointer2">
                     <img class="request-pointer3" src="./icons/request-pointer2.png" alt="request-pointer3">
                     <img class="request-pointer4" src="./icons/request-pointer2.png" alt="request-pointer4">
-                </ul>    
+                </ul>
             </div>
         </section>
     </main>
     <footer id="contact">
-        <div class="footer-logo">
+        <div data-aos="fade-right" data-aos-duration="3000" class="footer-logo">
             <img src="./icons/site-logo-white.png" alt="site-logo-white2">
             <span>Architect</span>
         </div>
-        <p class="footer-text">Architect Abrorbrk © 2025</p>
-        <ul class="footer-container">
-            <li><a target="_blank" href="https://t.me/Arxitekturiskiy4207"><img src="./icons/footer-img1.svg" alt="footer-img1" width="22px" height="22px"></a></li>
-            <li><a target="_blank" href="https://www.instagram.com/abrorbek.571?igsh=NWk5aG9vZGNjZDhu"><img src="./icons/footer-img2.svg" alt="footer-img2" width="22px" height="22px"></a></li>
+        <p data-aos="fade-up"
+             data-aos-duration="3000" class="footer-text">Architect Abrorbrk © 2025</p>
+        <ul data-aos="fade-left" data-aos-duration="3000" class="footer-container">
+            <li><a target="_blank" href="https://t.me/Arxitekturiskiy4207"><img src="./icons/footer-img1.svg"
+                        alt="footer-img1" width="22px" height="22px"></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/abrorbek.571?igsh=NWk5aG9vZGNjZDhu"><img
+                        src="./icons/footer-img2.svg" alt="footer-img2" width="22px" height="22px"></a></li>
             <li class="footer-media"><a target="_blank" href="tel:+998913694207">+99 891 369 42 07</a></li>
-            <li class="footer-icon"><a target="_blank" href="tel:+998913694207"><i class="fa-solid fa-phone"></i></a></li>
+            <li class="footer-icon"><a target="_blank" href="tel:+998913694207"><i class="fa-solid fa-phone"></i></a>
+            </li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
